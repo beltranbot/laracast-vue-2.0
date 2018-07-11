@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <style>
+        body {
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root" class="container">
+        <modal>
+            <template slot="title">my title</template>
+            <template slot="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, iste optio possimus sint, distinctio saepe aut corporis in laborum, excepturi iusto? Perspiciatis ut, sint et minus incidunt aut tempora quos!
+                </p>
+            </template>
+
+            <template slot="footer">
+                <button class="button is-success">Guardar Cambios</button>
+                <button class="button">Cancel</button>
+            </template>
+        </modal>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>    
+</body>
+</html>
