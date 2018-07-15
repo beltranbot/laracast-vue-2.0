@@ -8,9 +8,11 @@
 require('./bootstrap');
 
 import axios from 'axios'
+import Form from './utilities/Form'
 
 window.Vue = require('vue');
 window.axios = axios
+window.Form = Form
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

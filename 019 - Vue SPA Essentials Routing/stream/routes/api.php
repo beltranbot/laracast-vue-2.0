@@ -18,4 +18,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('statuses', 'API\Status\StatusController@index');
+Route::get('statuses', 'API\Statuses\StatusesController@index');
+Route::post('statuses', 'API\Statuses\StatusesController@store');
